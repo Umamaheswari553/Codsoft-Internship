@@ -5,6 +5,9 @@
 
 ![thinking](https://github.com/Umamaheswari553/Codsoft-Internship/assets/152472336/c2ceff02-b0e1-4827-b024-fe15627bbd30)
 
+![design](https://github.com/Umamaheswari553/Codsoft-Internship/assets/152472336/f52b6760-f6ba-4836-bc5c-0efdc382d304)
+
+
 
 
 
