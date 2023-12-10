@@ -7,6 +7,9 @@
 
 ![design](https://github.com/Umamaheswari553/Codsoft-Internship/assets/152472336/f52b6760-f6ba-4836-bc5c-0efdc382d304)
 
+![design](https://github.com/Umamaheswari553/Codsoft-Internship/assets/152472336/b41ecc6c-c5f8-4fe5-996d-08c94cf4ef5b)
+
+
 
 
 
