@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav h1 {
+      margin: 0;
+      color: black;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+      color: black;
+    }
+
+    nav ul li.buy-now {
+      background-color: orange;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    section {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      height: 50vh;
+      overflow: hidden;
+      position: relative; /* To position the content */
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .content h2,
+    .content p {
+      margin: 0;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons button {
+      background-color: orange;
+      color: white;
+      padding: 10px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .features {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, orange, lightpink);
+  padding: 20px;
+  text-align: center;
+}
+
+.features h3 {
+  color: white;
+  margin: 0;
+  flex: 1;
+}
+
+.about-us {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.about-us-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  color: black;
+}
+
+.about-us p {
+  margin: 20px 0;
+}
+.read-more-button {
+    background: linear-gradient(to right, orange, pink);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .our-services {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .our-services h2 {
+    color: black;
+  }
+
+  .services-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .services-images img {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+  }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>Landing Page</h1>
+    <ul>
+      <li>Home</li>
+      <li>Biog</li>
+      <li>Page</li>
+      <li>Services</li>
+      <li>Terminals</li>
+      <li>Contact</li>
+      <li class="buy-now">Buy Now</li>
+    </ul>
+  </nav>
+
+  <section>
+    <img src="https://private-user-images.githubusercontent.com/152472336/289372623-2d29c936-ea36-4fd9-acca-fef9ee0f14fc.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMjYzMjksIm5iZiI6MTcwMjIyNjAyOSwicGF0aCI6Ii8xNTI0NzIzMzYvMjg5MzcyNjIzLTJkMjljOTM2LWVhMzYtNGZkOS1hY2NhLWZlZjllZTBmMTRmYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMFQxNjMzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YTZkYzU0ZTk3ZDUyNzY0MTEyMmJmYmQ0NTljYmVmZDQ2NzhiMjM3NjQwNjcxNzBmYTUyNjhkZGNkYjg0ZmNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7-UIWDMsmUCcXwU-Erwy3r9xidHw5OeRMnZRqPAw0E8" alt="Landing Image">
+    <div class="content">
+      <h2>We are creative</h2>
+      <p>CREATIVE DIGITAL AGENCY</p>
+      <div class="buttons">
+        <button>Read more</button>
+        <button>Request Consult</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="features">
+    <h3>Launch business</h3>
+    <h3>Online Support Team</h3>
+    <h3>Time Management</h3>
+  </div>
+
+  <section class="about-us">
+    <div class="About Us">
+      <h2>About Us</h2>
+      <p>
+        Provider of IT management consulting and software development services<br>
+        intended to solve critical business problems and deploy advanced technology.<br>
+        The company specializes in full-stack engineering, custom application development<br>
+        for iPhone and Android, technology consulting, talent management, and recruitment, <br>
+        enabling enterprises to take care of their outsourced product development in a hassle-free manner.<br></p>
+
+        <button class="read-more-button">Read More</button>
+
+
+  </section>
+  <h2>Our Services</h2>
+
+  <section class="our-services">
+    <div class="services-images">
+      <img src="https://private-user-images.githubusercontent.com/152472336/289371458-54e797b7-ede0-4f04-90b3-12fc13148353.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMzAwMjQsIm5iZiI6MTcwMjIyOTcyNCwicGF0aCI6Ii8xNTI0NzIzMzYvMjg5MzcxNDU4LTU0ZTc5N2I3LWVkZTAtNGYwNC05MGIzLTEyZmMxMzE0ODM1My5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMFQxNzM1MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYjVkMTFiZDVlNTg3Mjk3YWQ2NTE2MGMzZDY1N2Y5ZjY5ZmE3YWE0MTc3Yzg3M2Y2NGUxNDU5Mjk1MDQ4Zjk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UMsCjCU13mxgOW6u5b9C6mdvs5FdN3qlMetULDvboG0" alt="Service 1">
+      <p>User Experience</p>
+    </div>
+    <div class="services-images">
+        <img src="https://private-user-images.githubusercontent.com/152472336/289376409-b41ecc6c-c5f8-4fe5-996d-08c94cf4ef5b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMzA2MTQsIm5iZiI6MTcwMjIzMDMxNCwicGF0aCI6Ii8xNTI0NzIzMzYvMjg5Mzc2NDA5LWI0MWVjYzZjLWM1ZjgtNGZlNS05OTZkLTA4Yzk0Y2Y0ZWY1Yi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMFQxNzQ1MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NTQ4NDlhOTQ1ZGVkMzlhNGNiNzZhNDEzMjdiMjBkZTMxMDgzNzg3YTAyM2E3MWQzMjQyOGQ3NzEzNmQ4NzkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kRa4P5U0PzGke9dX2d9-wv2xAj40mSfdMRhUuQ4_IDk" alt="Service 1">
+        <p>Creative Thinking</p>
+    </div>
+
+    </div>
+  </section>
+
+
+</body>
+</html>
